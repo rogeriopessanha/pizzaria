@@ -1,0 +1,52 @@
+
+.containerCenter{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--gray-900);
+}
+
+.login{
+  width: 500px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+
+  h1{
+    color: var(--white);
+    padding-bottom: 1rem;
+  }
+
+  form{
+    // width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  form button{
+    height: 32px;
+    font-size: 1.1rem;
+  }
+}
+
+.text{
+  margin-top: 1rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
+@media (max-width:620px){
+  .login{
+    width: 100%;
+    
+  }
+  .text{
+    font-size: .9rem;
+  }
+}
