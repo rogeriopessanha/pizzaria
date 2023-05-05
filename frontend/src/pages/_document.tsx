@@ -13,12 +13,5 @@ export default function Document() {
       </body>
     </Html>
 
-    // <Html lang="pt-br">
-    //   <Head />
-    //   <body>
-    //     <Main />
-    //     <NextScript />
-    //   </body>
-    // </Html>
   )
 }
