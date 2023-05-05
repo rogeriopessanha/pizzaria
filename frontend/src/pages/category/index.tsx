@@ -12,8 +12,8 @@ import { canSSRAuth } from "@/utils/canSSRAuth";
 export default function Category(){
     const [name, setName] = useState('')
 
-    async function handleRegister(event: FormEvent){
-        event.preventDefault()
+    async function handleRegister(e: FormEvent){
+        e.preventDefault()
 
         if (name === '') {
             return
